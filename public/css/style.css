@@ -1,12 +1,13 @@
 h1{
   text-align: center;
   font-family: 'Indie Flower', cursive;
-  font-color: red;
+  color: red;
 }
 
 h2{
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  color: red;
 }
 
 div::after {
@@ -28,8 +29,29 @@ div::after {
 }
 
 #cat_BTN {
-  position: relative;
-  top: 0px;
-  left: 635px;
+  padding-left: 45%;
+  padding-right: 45%;
 }
 
+#send {
+  padding-left: 45%;
+  padding-right: 40%
+}
+
+#results::after {
+  content: "";
+/*   background: url("http://www.adagio.com/images2/custom_blends/44513.jpg"); */
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-repeat: no-repeat;
+  background: url(http://masucub.com/wp-content/uploads/2015/04/funny-cat-pictures-with-captions-20.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
