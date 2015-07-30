@@ -8,7 +8,7 @@ class MyApp < Sinatra::Base
     @fact = get_fact
     erb :index
   end
-  get '/POST' do
+  get '/get_fact' do
     @fact = get_fact
     erb :results
   end
