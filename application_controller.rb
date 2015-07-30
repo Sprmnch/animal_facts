@@ -12,4 +12,10 @@ class MyApp < Sinatra::Base
     @fact = get_fact()
     erb :results
   end
+  
+  get '/SEND' do
+    @fact = get_fact()
+    send_message(params[:number], @fact)
+    erb :results
+  end
 end
