@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>
       Animal Facts (with gifs)
@@ -11,16 +11,20 @@
     <div>
     <h1> Welcome to the most pointless website in the world! </h1>
       <br>
-      <h2> Press the cat's face for a random cat fact and gif!
+      <h2> Press the cat's face for a random cat fact and gif! Type a number and press the standing cat to text a gif and fact to family and friends!
       </h2>
     <form action="POST">
       <button id="cat_BTN" type="submit" style="border: 0; background: transparent">
     <img src="http://rs189.pbsrc.com/albums/z229/Razzledazzy/GIFS/1269259657_omg_cat.gif~c200" width="120" height="120" alt="submit" />
 </button>
     </form>
-    <form action="SEND" id='send'>
-      <input type="text" name="number" id='input-box'>
-      <input type="submit" value="Send a text" id='input-button'>
+    <form action="SEND">
+      <input id="input" type="text" name="number" id='input-box'>
+      </input>
+      <button id="submit" type="submit" value="Send a text" id='input-button'>
+        <img src="http://stream1.gifsoup.com/view/317902/standing-cat-is-standing-o.gif" width="120" height="120" alt="submit" />
+      </button>
+
     </form>
     </div>
   </body>

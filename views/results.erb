@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>
       Results Page
@@ -9,13 +10,14 @@
   <body>
     <div id="results">
       <br>
-    <h1>
-      HAVE A CAT FACT!!!
-    </h1>
-    <h2>
-      <%=@fact[1]%>
-    </h2>
-    <img src="<%=@fact[0]%>">
+      <h1 id="cat_fact">
+        HAVE A CAT FACT!!!
+      </h1>
+      <h2 id="actual_Fact">
+        <%=@fact[1]%>
+      </h2>
+      <img id="cat_gif" src="<%=@fact[0]%>">
+      <iframe width="320" height="315" src="https://www.youtube.com/embed/wZZ7oFKsKzY" frameborder="0" allowfullscreen></iframe>
     </div>
   </body>
 </html>

@@ -28,7 +28,7 @@ def send_message(number, fact)
   @client = Twilio::REST::Client.new account_sid, auth_token
   @client.messages.create(
   from: '+14342605034',
-    to: "+#{number}",
+    to: "+1#{number}",
   body: "#{fact[1]}",
   media_url: "#{fact[0]}"
 )

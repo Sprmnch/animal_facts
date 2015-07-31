@@ -1,13 +1,14 @@
 h1{
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-  color: red;
+  font-family: 'Lobster', cursive;
+  color: #990033;
+  font-size: 400%;
 }
 
 h2{
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-  color: red;
+  font-family: 'Lobster', cursive;
+  color: #990033;
 }
 
 div::after {
@@ -29,14 +30,11 @@ div::after {
 }
 
 #cat_BTN {
-  padding-left: 45%;
-  padding-right: 45%;
+  position: absolute;
+    left: 1350px;
+    top: 550px;
 }
 
-#send {
-  padding-left: 45%;
-  padding-right: 40%
-}
 
 #results::after {
   content: "";
@@ -49,9 +47,67 @@ div::after {
   position: absolute;
   z-index: -1; 
   background-repeat: no-repeat;
-  background: url(http://masucub.com/wp-content/uploads/2015/04/funny-cat-pictures-with-captions-20.jpg) no-repeat center center fixed; 
+  background: url("Surprise_kitty.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+h2 { 
+  position: absolute;
+    left: 900px;
+    top: 400px;
+}
+ #cat_fact {
+   position: absolute;
+    left: 1300px;
+    top: 200px;
+   text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #990033;
+ }
+ #actual_Fact{
+   position: absolute;
+    left: 1200px;
+    top: 300px;
+   text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #990033;
+ }
+
+#cat_gif{
+  position: absolute;
+    left: 1300px;
+    top: 650px;
+}
+
+#input{
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    position: absolute;
+    left: 1320px;
+    top: 700px;
+ 
+}
+#submit{
+    position: absolute;
+    left: 1550px;
+    top: 655px;
 }
